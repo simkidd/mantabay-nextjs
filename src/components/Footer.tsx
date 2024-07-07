@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
         <div className="py-8 flex w-full justify-center lg:items-center text-sm gap-2">
           <p>&copy; MantaBay Limited {getYear}</p>
-          <div className="">|</div>
+          {/* <div className="">|</div>
           <p>
             Built by{" "}
             <a
@@ -109,7 +109,7 @@ const Footer = () => {
             >
               Onidev
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

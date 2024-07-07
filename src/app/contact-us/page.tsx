@@ -62,10 +62,7 @@ const ContactUsPage = () => {
               <h4 className="mb-3 font-semibold text-[30px] text-blue">
                 Quick Contact
               </h4>
-              <p className="mb-8 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique porro qui blanditiis autem impedit?
-              </p>
+              <p className="mb-8 text-gray-500"></p>
 
               <ContactForm />
             </div>
