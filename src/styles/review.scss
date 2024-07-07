@@ -1,0 +1,33 @@
+.swiper {
+  position: relative;
+  overflow: visible;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: -70px;
+    border-radius: 50%;
+
+    &::after {
+      content: "";
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  .swiper-button-prev {
+    right: 80px;
+    left: auto;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+}
