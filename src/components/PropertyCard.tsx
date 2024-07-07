@@ -27,7 +27,7 @@ const PropertyCard: React.FC<{ item: Project }> = ({ item }) => {
           className="w-full h-full object-cover group-hover:scale-[1.02] transition duration-300 ease-in-out"
         />
       </div>
-      <div className="px-6 py-4">
+      <div className="px-3 py-4">
         <h4 className="font-bold text-xl mb-2">{item?.name}</h4>
         <p className="text-gray-700 text-base mb-4">{item?.description}</p>
 

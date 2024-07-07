@@ -231,12 +231,12 @@ const HomePage = () => {
         <div className="container mx-auto px-2 py-20 grid md:grid-cols-2 grid-cols-1">
           <div className="z-[1]">
             <p className="flex items-center text-gray-800 border-gray-800 border-l border-r leading-none px-2 w-fit mb-4 uppercase">
-              <span className="text-primary-400 mr-2">03</span>
+              {/* <span className="text-primary-400 mr-2">03</span> */}
               About Us
             </p>
 
             <h3 className="text-blue font-bold text-3xl lg:text-[45px] leading-tight mb-6">
-              Helping you find the right Properties
+              Who We Are
             </h3>
             <p className="text-primary mb-9">
               Welcome to Manta Bay Limited, a premier real estate development
@@ -263,7 +263,7 @@ const HomePage = () => {
         <div className="container mx-auto px-2 lg:py-40 py-16">
           <div className="max-w-2xl mx-auto mb-11">
             <p className="flex items-center text-gray-800 border-gray-800 border-l border-r leading-none px-2 w-fit mb-4 uppercase mx-auto">
-              <span className="text-primary-400 mr-2">04</span>
+              {/* <span className="text-primary-400 mr-2">04</span> */}
               Projects
             </p>
 
