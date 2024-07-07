@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Real Estate | MantaBay",
   description: "Navigating dreams, crafting homes",
+  openGraph: {
+    images: ["/images/neo-1.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <NextTopLoader
+        <NextTopLoader
           color="#256252"
           initialPosition={0.08}
           crawlSpeed={200}
