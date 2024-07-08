@@ -10,6 +10,13 @@ import { services } from "@/data/servicesData";
 import ServicePattern from "@/assets/service-pattern.svg";
 import PropertyCard from "@/components/PropertyCard";
 import { projectsData } from "@/data/projectsData";
+import { Metadata } from "next";
+
+const pageTitle = "Projects";
+
+export const metadata: Metadata = {
+  title: pageTitle,
+};
 
 const ServicesPage = () => {
   return (

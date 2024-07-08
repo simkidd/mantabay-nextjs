@@ -9,10 +9,16 @@ import NextTopLoader from "nextjs-toploader";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Real Estate | MantaBay",
+  title: {
+    default: "Real Estate | MantaBay",
+    template: "%s | MantaBay",
+  },
   description: "Navigating dreams, crafting homes",
   openGraph: {
     images: ["/images/neo-1.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 

@@ -13,6 +13,13 @@ import Line2 from "@/assets/Icon-hero2.svg";
 import Accordion from "@/components/Accordion";
 import Map from "@/components/Map";
 import ContactForm from "@/components/ContactForm";
+import { Metadata } from "next";
+
+const pageTitle = "Contact Us";
+
+export const metadata: Metadata = {
+  title: pageTitle,
+};
 
 const ContactUsPage = () => {
   return (
