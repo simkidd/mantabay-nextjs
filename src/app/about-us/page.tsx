@@ -11,6 +11,13 @@ import IntroIcon2 from "@/assets/images/Icon (1).png";
 import { team } from "@/data/teamData";
 import TeamCard from "@/components/TeamCard";
 import { mainFocus } from "@/data/mainFocus";
+import { Metadata } from "next";
+
+const pageTitle = "About Us";
+
+export const metadata: Metadata = {
+  title: pageTitle,
+};
 
 const AboutPage = () => {
   return (
