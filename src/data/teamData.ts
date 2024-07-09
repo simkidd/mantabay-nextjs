@@ -23,7 +23,7 @@ export const team: Team[] = [
   {
     name: "BEKINBO, Samuel",
     role: "Head, Legal Team",
-    image: "/images/team/BEKINBO, Samuel.jpg",
+    image: "/images/team/WhatsApp Image 2024-07-09 at 07.21.34_bf74a619.jpg",
   },
   {
     name: "CHUKWUJEKWE, Helen",
