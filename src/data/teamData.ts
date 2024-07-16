@@ -12,17 +12,17 @@ export interface Team {
 export const team: Team[] = [
   {
     name: "OKOROMA, Jeremiah",
-    role: "Managing Director",
+    role: "CEO",
     image: "/images/team/WhatsApp Image 2024-07-06 at 19.55.12_dc7b9edb.jpg",
   },
   {
     name: "Dr. IKECHI, Igwe",
-    role: "Board Member",
+    role: "Member, Board",
     image: "/images/team/Dr. Igwe Ikechi.png",
   },
   {
     name: "NGADI, Kenechukwu",
-    role: "Board Member",
+    role: "Member, Board",
     image: "/images/team/Ngadi Kenechukwu.png",
   },
   {
