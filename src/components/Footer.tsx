@@ -28,6 +28,7 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   className="size-9 rounded-full bg-primary-500 text-lg flex items-center justify-center hover:text-primary-200 hover:bg-blue transition-colors duration-300"
+                  aria-label="twitter"
                 >
                   <BsTwitterX />
                 </a>
@@ -35,6 +36,7 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   className="size-9 rounded-full bg-primary-500 text-lg flex items-center justify-center hover:text-primary-200 hover:bg-blue transition-colors duration-300"
+                  aria-label="facebook"
                 >
                   <FaFacebookF />
                 </a>
@@ -42,6 +44,7 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   className="size-9 rounded-full bg-primary-500 text-lg flex items-center justify-center hover:text-primary-200 hover:bg-blue transition-colors duration-300"
+                  aria-label="linkedin"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -49,6 +52,7 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   className="size-9 rounded-full bg-primary-500 text-lg flex items-center justify-center hover:text-primary-200 hover:bg-blue transition-colors duration-300"
+                  aria-label="instagram"
                 >
                   <FaInstagram />
                 </a>

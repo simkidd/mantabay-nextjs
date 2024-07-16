@@ -33,9 +33,9 @@ const AboutPage = () => {
               <p className="uppercase text-sm leading-none">About Us</p>
             </div>
 
-            <h1 className="text-white font-bold text-5xl md:text-[58px] leading-none my-9">
-              {/* Why Choose Us */}
-            </h1>
+            {/* <h1 className="text-white font-bold text-5xl md:text-[58px] leading-none my-9">
+              Why Choose Us
+            </h1> */}
           </div>
 
           <div className="hidden lg:block"></div>
