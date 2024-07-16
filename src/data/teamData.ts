@@ -16,6 +16,11 @@ export const team: Team[] = [
     image: "/images/team/WhatsApp Image 2024-07-06 at 19.55.12_dc7b9edb.jpg",
   },
   {
+    name: "Dr. IKECHI, Igwe",
+    role: "Non-Executive Board Member",
+    image: "/images/team/Dr. Igwe Ikechi.png",
+  },
+  {
     name: "OYIM, Jonathan",
     role: "Head, Operations",
     image: "/images/team/OYIM, Jonathan.jpg",
