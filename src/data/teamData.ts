@@ -11,7 +11,7 @@ export interface Team {
 
 export const team: Team[] = [
   {
-    name: "OKOROMA, Jeremiah",
+    name: "Engr. OKOROMA, Jeremiah",
     role: "Chief Executive Officer",
     image: "/images/team/WhatsApp Image 2024-07-06 at 19.55.12_dc7b9edb.jpg",
   },

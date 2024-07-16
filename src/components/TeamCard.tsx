@@ -16,8 +16,8 @@ const TeamCard: React.FC<{
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="px-4 py-[25px] group-hover:bg-primary-400 transition-colors duration-300 ease-in-out">
-        <p className="text-blue text-xl font-semibold group-hover:text-white">
+      <div className="px-2 py-[25px] group-hover:bg-primary-400 transition-colors duration-300 ease-in-out">
+        <p className="text-blue text-lg font-semibold group-hover:text-white">
           {team?.name}
         </p>
         <p className="font-source text-primary-500 group-hover:text-white">
