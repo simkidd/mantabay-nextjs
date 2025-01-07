@@ -1,15 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
-import React from "react";
-import HeaderImg from "@/assets/images/image 54.png";
-import Line1 from "@/assets/Icon-hero.svg";
-import Line2 from "@/assets/Icon-hero2.svg";
-import { HomeIcon } from "@heroicons/react/24/solid";
-import IntroImg from "@/assets/images/Image (7).png";
-import { services } from "@/data/servicesData";
-import ServicePattern from "@/assets/service-pattern.svg";
 import PropertyCard from "@/components/PropertyCard";
 import { projectsData } from "@/data/projectsData";
+import { HomeIcon } from "@heroicons/react/24/solid";
 import { Metadata } from "next";
 
 const pageTitle = "Projects";

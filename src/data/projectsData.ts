@@ -1,20 +1,9 @@
-export interface Project {
-  name: string;
-  description: string;
-  images: string[];
-  status: ProjectStatusEnum;
-  location: string;
-}
+import { IProject } from "@/interfaces/project.interface";
 
-export enum ProjectStatusEnum {
-  Development = "In Development",
-  Construction = "In Construction",
-  Completed = "Completed",
-}
-
-export const projectsData: Project[] = [
+export const projectsData: IProject[] = [
   {
-    name: "5-Bedroom Duplex",
+    id: "1",
+    name: "Magnificent luxury 5-Bedroom Duplex  with breathtaking views, swimming pool and parking space.",
     description:
       "A luxurious 5-bedroom duplex with modern amenities and spacious living areas.",
     images: [
@@ -26,10 +15,22 @@ export const projectsData: Project[] = [
       "/images/projects/DP_6 - Photo.jpg",
       "/images/projects/DP_7 - Photo.jpg",
     ],
-    status: ProjectStatusEnum.Construction,
+    status: "In Construction",
     location: "Port Harcourt",
+    slug: "",
+    rooms: [
+      {
+        name: "Image one",
+        url: "/images/projects/DP_1 - Photo.jpg",
+      },
+      {
+        name: "Image two",
+        url: "/images/projects/DP_2 - Photo.jpg",
+      },
+    ],
   },
   {
+    id: "2",
     name: "5-Bedroom Duplex",
     description:
       "A luxurious 5-bedroom duplex with modern amenities and spacious living areas",
@@ -39,7 +40,9 @@ export const projectsData: Project[] = [
       "/images/projects/A_3 - Photo.jpg",
       "/images/projects/wood_4 - Photo.jpg",
     ],
-    status: ProjectStatusEnum.Completed,
+    status: "Completed",
     location: "Port Harcourt",
+    slug: "",
+    rooms: [],
   },
 ];

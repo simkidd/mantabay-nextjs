@@ -1,15 +1,16 @@
-import { Project, ProjectStatusEnum } from "@/data/projectsData";
+import { IProject } from "@/interfaces/project.interface";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const PropertyCard: React.FC<{ item: Project }> = ({ item }) => {
-  const statusChip = (status: ProjectStatusEnum) => {
+const PropertyCard: React.FC<{ item: IProject }> = ({ item }) => {
+  const statusChip = (status: string) => {
     switch (status) {
-      case ProjectStatusEnum.Development:
+      case "In Development":
         return "bg-yellow-100 text-yellow-600";
-      case ProjectStatusEnum.Construction:
+      case "In Construction":
         return "bg-blue-500 text-white";
-      case ProjectStatusEnum.Completed:
+      case "Completed":
         return "bg-green-500 text-white";
       default:
         return "bg-gray-100 text-gray-600";
@@ -28,13 +29,15 @@ const PropertyCard: React.FC<{ item: Project }> = ({ item }) => {
         />
       </div>
       <div className="px-3 py-4">
-        <h4 className="font-bold text-xl mb-2">{item?.name}</h4>
+        <Link href={`/projects/${item?.id}`}>
+          <h4 className="font-bold text-xl mb-2">{item?.name}</h4>
+        </Link>
         <p className="text-gray-700 text-base mb-4">{item?.description}</p>
 
         <p>
           <span
             className={`inline-block text-sm px-2 py-1 rounded-full font-semibold ${statusChip(
-              item?.status as ProjectStatusEnum
+              item?.status
             )}`}
           >
             {item?.status}
