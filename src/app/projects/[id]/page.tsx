@@ -1,7 +1,7 @@
+import ImageGallery from "@/components/property/ImageGallery";
 import VirtualTour from "@/components/property/VirtualTour";
 import { projectsData } from "@/data/projectsData";
 import { ArrowLeftCircleIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
 import Link from "next/link";
 
 const ProjectDetailPage = async ({
@@ -44,34 +44,11 @@ const ProjectDetailPage = async ({
         <div className="container mx-auto px-2 py-20 pb-4 grid grid-cols-1 lg:grid-cols-4 gap-12 ">
           <div className="flex flex-col w-full col-span-1 lg:col-span-3">
             {/* gallery images */}
-            <div>
-              <div className="mb-4">
-                <Image
-                  src={project?.images[0]}
-                  alt={project?.name}
-                  width={500}
-                  height={500}
-                  className="w-full h-full object-cover group-hover:scale-[1.02] transition duration-300 ease-in-out"
-                />
-              </div>
-
-              <div className="grid grid-cols-5 gap-4">
-                {project?.images.map((image, index) => (
-                  <Image
-                    key={index}
-                    src={image}
-                    alt={project?.name}
-                    width={500}
-                    height={500}
-                    className="w-full h-full object-cover group-hover:scale-[1.02] transition duration-300 ease-in-out"
-                  />
-                ))}
-              </div>
-            </div>
+            <ImageGallery data={project} />
 
             {/* description */}
             <section className="mt-16">
-              <h3 className="mb-4 font-bold text-lg text-primary">
+              <h3 className="mb-4 font-bold text-xl text-primary">
                 Description
               </h3>
 
@@ -107,7 +84,7 @@ const ProjectDetailPage = async ({
 
             {/* virtual tour */}
             <section className="mt-16">
-              <h3 className="mb-4 font-bold text-lg text-primary">
+              <h3 className="mb-4 font-bold text-xl text-primary">
                 Virtual tour
               </h3>
 

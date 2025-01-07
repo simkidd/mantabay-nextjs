@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NextTopLoader from "nextjs-toploader";
+import Loading from "@/components/shared/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,7 +41,7 @@ export default function RootLayout({
           easing="ease"
           speed={200}
         />
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loading />}>
           <Header />
           <main className="min-h-dvh">{children}</main>
           <Footer />
