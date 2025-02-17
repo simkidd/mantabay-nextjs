@@ -16,7 +16,7 @@ export const projectsData: Project[] = [
   {
     name: "5-Bedroom Duplex",
     description:
-      "A luxurious 5-bedroom duplex with modern amenities and spacious living areas.",
+      "Luxury 5-Bedroom Smart Duplex with Swimming Pool and Cinema",
     images: [
       "/images/projects/DP_1 - Photo.jpg",
       "/images/projects/DP_2 - Photo.jpg",
@@ -32,7 +32,7 @@ export const projectsData: Project[] = [
   {
     name: "5-Bedroom Duplex",
     description:
-      "A luxurious 5-bedroom duplex with modern amenities and spacious living areas",
+      "Executive 5-Bedroom Garden Duplex Estate",
     images: [
       "/images/projects/A_2 - Photo.jpg",
       "/images/projects/A_1 - Photo.jpg",
