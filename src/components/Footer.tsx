@@ -93,7 +93,7 @@ const Footer = () => {
                 <li className="grid grid-cols-[24px_auto] gap-2">
                   <MapPinIcon className="size-5" />
                   <span>
-                    67 Tombia Ext., GRA Phase II, Port Harcourt, Rivers State,
+                    Port Harcourt, Rivers State,
                     Nigeria.
                   </span>
                 </li>

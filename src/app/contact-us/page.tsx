@@ -59,7 +59,7 @@ const ContactUsPage = () => {
 
             <div className="bg-white grid grid-cols-[24px_auto] gap-2 lg:w-fit px-[30px] py-6 text-primary border-0 rounded">
               <MapPinIcon className="size-5" />
-              67 Tombia Ext., GRA Phase II, Port Harcourt, Rivers State,
+              Port Harcourt, Rivers State,
               Nigeria.
             </div>
             <Map />
