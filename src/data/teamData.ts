@@ -30,19 +30,19 @@ export const team: Team[] = [
     role: "Member, Board",
     image: "/images/team/Lambert Samuel.png",
   },
-  {
-    name: "OYIM, Jonathan",
-    role: "Head, Operations",
-    image: "/images/team/OYIM, Jonathan.jpg",
-  },
+  // {
+  //   name: "OYIM, Jonathan",
+  //   role: "Head, Operations",
+  //   image: "/images/team/OYIM, Jonathan.jpg",
+  // },
   {
     name: "BEKINBO, Samuel",
     role: "Head, Legal Team",
     image: "/images/team/WhatsApp Image 2024-07-09 at 07.21.34_bf74a619.jpg",
   },
-  {
-    name: "CHUKWUJEKWE, Helen",
-    role: "Head, HSE",
-    image: "/images/team/WhatsApp Image 2024-07-06 at 20.58.37_874f19b2.jpg",
-  },
+  // {
+  //   name: "CHUKWUJEKWE, Helen",
+  //   role: "Head, HSE",
+  //   image: "/images/team/WhatsApp Image 2024-07-06 at 20.58.37_874f19b2.jpg",
+  // },
 ];
